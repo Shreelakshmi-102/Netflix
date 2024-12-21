@@ -1,0 +1,602 @@
+body{
+    background-color: black;
+}
+#bimg{
+    opacity: 0.3;
+    position: relative;
+}
+.navbar{
+     /* position: absolute; */
+     height: 80px;
+}
+#netflix{
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+.navmovs{
+    position: absolute;
+    color: white;
+    /* background-color: rgb(7, 20, 30); */
+    border: 0.5px solid rgb(75, 72, 72);
+    border-radius: 5px;
+    height: 35px;
+    width: 80px;
+    text-align: center;
+    top: 25px;
+    left:1050px;
+}
+.navmovs:hover{
+    background-color: rgb(106, 93, 93);
+}
+#topmovs{
+    position: absolute;
+    top: -8px;
+    left: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lang{
+    position: absolute;
+    /* background-color: rgb(14, 14, 14); */
+    border: 0.5px solid rgb(75, 72, 72);
+    border-radius: 7px;
+    height: 35px;
+    width: 135px;
+    left: 1150px;
+    top: 25px;
+}
+/* .lang:hover{
+    background-color: rgb(106, 93, 93);
+} */
+#english{
+    position: absolute;
+    left: 10px;
+    top: 7px;
+    height: 20px;
+}
+.sign-in{
+    position: absolute;
+    color: white;
+    /* background-color: rgb(225, 21, 21); */
+    border: 0.5px solid rgb(75, 72, 72);
+    border-radius: 5px;
+    height: 33px;
+    width: 70px;
+    /* text-align: center; */
+    top: 25px;
+    left:1306px ;
+}
+.sign-in:hover{
+    background-color: rgb(106, 93, 93);
+}
+.text{
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ctrtxt{
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 150px;
+    left: 500px;
+    font-size: 2.5rem;
+}
+.smltxt{
+    position: absolute;
+    font-size: 1rem;
+    top: 255px;
+}
+.email {
+    background-color: rgba(26, 25, 25, 0.745);
+    border: 1px solid rgb(155, 147, 147);
+    border-radius: 5px;
+    height: 50px;
+    width: 400px;
+    position: absolute;
+    top: 520px;
+    left: 450px;
+}
+.email p{
+    position: absolute;
+    color: rgb(198, 193, 193);
+    left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.start{
+    position: absolute;
+    background-color: rgb(225, 21, 21);
+    color: aliceblue;
+    border-radius: 5px;
+    height: 55px;
+    width: 200px;
+    left: 870px;
+    top: 520px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gs{
+    position: absolute;
+    left: 25px;
+    top: -10px;
+}
+.arrow{
+    position: absolute;
+    left: 160px;
+    top: -10px;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.redl{
+    position: relative;
+    background-color: red;
+    border-radius: 50%;
+    width: 100%;
+    height: 6px;
+    top: -8px;
+}
+#tn{
+    color:rgb(230, 212, 212);
+    position: relative;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 150px;
+    top: 10px;
+}
+.mov1{
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    left: 100px;
+    padding: 20px;
+}
+#no1{
+    position:absolute;
+    height: 70px;
+    top: 150px;
+    left: -15px;
+}
+#mvtxt{
+    position: absolute;
+    background-color: red;
+    border-radius: 5px;
+    height: 22px;
+    width: 120px;
+    text-align: center;
+    color: white;
+    top: 233px;
+    left: 45px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.arrow1{
+    position: absolute;
+    background-color: rgb(49, 47, 47);
+    border-radius: 20px;
+    height: 80px;
+    width: 25px;
+    align-items: center;
+    text-align: center;
+    left: 1390px;
+    top: 1000px;
+}
+#arw{
+    position: absolute;
+    color: rgb(214, 206, 206);
+    top: 6px;
+    left: 6px;
+}
+/* 2nd row */
+#tn2{
+    color:rgb(230, 212, 212);
+    position: relative;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 150px;
+    top: 0px;
+}
+.mov2{
+    position: relative;
+    display: inline-block;
+    /* top: 0px; */
+    left: 110px;
+    padding: 15px;
+}
+.arrow2{
+    position: absolute;
+    background-color: rgb(49, 47, 47);
+    border-radius: 20px;
+    height: 80px;
+    width: 25px;
+    align-items: center;
+    text-align: center;
+    left: 1390px;
+    top: 1370px;
+}
+#arw2{
+    position: absolute;
+    color: rgb(214, 206, 206);
+    top: 6px;
+    left: 6px;
+}
+/* reasons */
+#reasons{
+    color:rgb(230, 212, 212);
+    position: relative;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 150px;
+}
+.reason1{
+    background-color: rgb(38, 37, 37);
+    border: 2px solid rgb(45, 43, 43);
+    position:relative;
+    color: white;
+    border-radius: 10px;
+    height: 140px;
+    width: 290px;
+    left: 140px;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    /* gap: 300px; */
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif
+}
+#reasontxt{
+    position: absolute;
+    left: 10px;
+}
+#r1{
+    position: absolute;
+    height: 50px;
+    left: 220px;
+    top: 80px;
+}
+/* Frequently asked questions */
+.question1{
+    position: relative;
+    background-color: rgb(38, 37, 37);
+    color: rgb(214, 208, 208);
+    border-radius: 10px;
+    display: inline-block;
+    /* gap: 100px; */
+    width: 1200px;
+    height: 80px;
+    left: 160px;
+    margin-bottom: 5px;
+    font-family:Arial, Helvetica, sans-serif
+}
+#questiontxt{
+    position: absolute;
+    font-size: 1.2rem;
+    left: 20px;
+    top:10px;    
+}
+#plus{
+    position: absolute;
+    left: 1140px;
+    font-family: 'Times New Roman', Times, serif
+}
+.question1:hover{
+    background-color: rgb(66, 72, 72);
+}
+/* get started */
+.getstrt{
+    position: relative;
+    background-color: rgb(210, 9, 9);
+    color: aliceblue;
+    border-radius: 20px;
+    height: 20px;
+    width: 130px;
+    text-align: center;
+    padding: 10px;
+    left: 700px;
+    top: 20px;
+    font-family:Arial, Helvetica, sans-serif
+}
+/* last contents */
+.call{
+    font-family:Arial, Helvetica, sans-;
+    position: relative;
+    color: rgb(186, 191, 195);
+    left: 150px;
+    top: 20px;
+}
+#lstcnt{
+    color: rgb(173, 165, 165);
+}
+.lastquestions{
+    /* background-color: rgb(78, 80, 81); */
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    left: 110px;
+    top: 20px;
+    padding: 20px;
+    margin-left: 50px;
+}
+.english{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    border: 0.5px solid rgb(133, 130, 130);
+    border-radius: 20px;
+    height: 35px;
+    width: 135px;
+    left: 170px;
+    top: 30px;
+}
+#eng{
+    position: absolute;
+    height: 18px;
+    top: 10px;
+    left: 14px;
+}
+.netflixinda{
+    position: relative;
+    color: rgb(206, 197, 197);
+    top: 60px;
+    left: 170px;
+    margin-bottom: 100px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+/* Responsive Design for max-width: 700px  */
+@media(max-width:700px){
+    .navbar{
+        height: 60px;
+        width: 100%;
+    }
+    #netflix{
+        height: 40px;
+        left: 10px;
+    }
+    .navmovs{
+        left: 345px;
+        height: 30px;
+        top: 20px;
+    }
+    .lang{
+        left: 445px;
+        top: 20px;
+        height: 30px;
+        width: 100px;
+    }
+    #english{
+        height:15px;
+    }
+    .sign-in{
+        left: 565px;
+        top: 20px;
+        height: 30px;
+    }
+    .ctrtxt{
+        left: 80px;
+    }
+    .email{
+        left: 55px;
+    }
+    .start{
+        width:150px;
+        height: 40px;
+        left: 470px;
+        top: 525px;
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .gs{
+        left: 15px;
+    }
+    #tn{
+        margin-top: 50px;
+        left: 25px;
+    }
+    #tn2{
+        /* background-color: aliceblue; */
+        margin-left: -50px;
+        margin-top: 50px;
+    }
+    .mov1{
+        left: 25px;
+        margin-right: 0px;
+    }
+    .mov2{
+        left: 25px;
+        margin-right: -10px;
+    }
+    .arrow{
+        left: 120px;
+        top: -18px;
+    }
+    #reasons{
+        left: 35px;
+    }
+    .reason1{
+        left: 25px;
+    }
+    .arrow1{
+        left: 600px;
+        top: 1300px;
+        opacity: 0;
+    }
+    .arrow2{
+        left: 599px;
+        top: 2000px;
+        opacity: 0;
+    }
+    #tn2{
+        left: 80px;
+    }
+    .question1{
+        left: 30px;
+        width: 300px;
+    }
+    #plus{
+        left: 275px;
+    }
+    .getstrt{
+        left: 250px;
+        margin-bottom: 30px;
+    }
+    .call{
+        left: 70px;
+    }
+    .lastquestions{
+        left: 10px;
+    }
+    .english{
+        left: 70px;
+    }
+    .netflixinda{
+        left: 70px;
+        margin-bottom: 100px;
+    }
+}
+
+
+/* Responsive Design for max-width: 700px  */
+@media(max-width:500px){
+    .navbar{
+        height: 45px;
+        width: 100%;
+    }
+    #netflix{
+        height: 20px;
+        left: 10px;
+    }
+    .navmovs{
+        left: 180px;
+        height: 25px;
+        width: 70px;
+        top: 15px;
+    }
+    #topmovs{
+        font-size: 0.9rem;
+        left: 13px;
+        top: -10px;
+    }
+    .lang{
+        left: 265px;
+        top: 15px;
+        height: 25px;
+        width: 92px;
+    }
+    #english{
+        height:14px;
+        left: 7px;
+    }
+    .sign-in{
+        left: 370px;
+        top: 15px;
+        height: 25px;
+    }
+    .text{
+        font-size: 0.9rem;
+        left: 12px;
+    }
+    .ctrtxt{
+        left: 20px;
+        top: 170px;
+        font-size: 2.1rem;
+    }
+    .smltxt{
+        top: 250px;
+        font-size: 0.8rem;
+    }
+    .email{
+        left: 40px;
+        top: 550px;
+        width: 230px;
+    }
+    .start{
+        width:100px;
+        height: 35px;
+        left: 280px;
+        top: 558px;
+        font-size: 0.9em;
+        text-align: center;
+    }
+    .gs{
+        left: 6px;
+        top: -5px;
+    }
+    .arrow{
+        left: 85px;
+        top: -9px;
+        font-size: 1rem;
+    }
+    #tn{
+        left: 50px;
+    }
+    .mov1{
+        left: 30px;
+        margin-right: -10px;
+    }
+    .tr1{
+        height: 140px;
+    }
+    #no1{
+        height: 40px;
+        top: 90px;
+        left: 1px;
+    }
+    #mvtxt{
+        top: 133px;
+        left: 30px;
+        height: 18px;
+        width: 85px;
+        padding: 1px;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+    .arrow1{
+        left: 370px;
+        top: 999px;
+        opacity: 0;
+    }
+    .mov2{
+        left: 30px;
+        margin-right: 0px;
+    }
+    .arrow2{
+        left: 370px;
+        top: 1530px;
+        opacity: 0;
+    }
+    #reasons{
+        left: 40px;
+    }
+    .reason1{
+        left: 50px;
+        height: 150px;
+        width: 320px;
+        margin-bottom: 10px;
+    }
+    #r1{
+        left: 240px;
+    }
+    #tn2{
+        left: 95px;
+        font-size: 1.6rem;
+    }
+    .question1{
+        left: 50px;
+        width: 360px;
+    }
+    #plus{
+        left: 330px;
+    }
+    .getstrt{
+        left: 120px;
+        margin-bottom: 30px;
+    }
+    .call{
+        left: 30px;
+    }
+    .lastquestions{
+        left: -30px;
+    }
+    .english{
+        left: 30px;
+    }
+    .netflixinda{
+        left: 40px;
+    }
+}
