@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    overflow-x: hidden;
 }
 #bimg{
     opacity: 0.3;
